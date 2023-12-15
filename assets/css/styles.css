@@ -206,7 +206,11 @@ main {
   margin: 0 auto;
   position: relative;
 }
-
+.averlay{
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
 .section {
   position: relative;
   width: 100%;
@@ -781,4 +785,46 @@ footer {
 .bottom-footer-conten ul li a:hover {
   color: var(--primary);
   text-decoration: underline;
+}
+
+.about{
+  background: url(../images/Apple-TV.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.about-description{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.about-description p{
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "SF Pro Display", sans-serif;
+  line-height: 1.7rem;
+}
+
+.about-description h1{
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-family: "SF Pro Display", sans-serif;
+  line-height: 3rem;
+}
+
+.about-description ol{
+  padding: 0 1.2rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
 }
