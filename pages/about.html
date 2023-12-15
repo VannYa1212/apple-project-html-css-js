@@ -14,6 +14,7 @@
   </head>
   <body>
     <!-- header -->
+    <div class="back-to-top"></div>
     <nav class="navbar">
       <div class="nav-conten">
         <!-- logo -->
@@ -77,16 +78,14 @@
     </nav>
     <!-- main -->
     <main class="main">
-       <!-- loadinng -->
-       <div id="loading" >
+      <!-- loadinng -->
+      <div id="loading">
         <div class="loading-bar">
-          <img src="https://i.stack.imgur.com/kOnzy.gif" alt="">
+          <img src="https://i.stack.imgur.com/kOnzy.gif" alt="" />
         </div>
       </div>
       <!-- container -->
-      <div class="container">
-        
-      </div>
+      <div class="container"></div>
     </main>
     <!-- footer -->
     <footer>
@@ -189,5 +188,19 @@
   <script src="../assets/js/main.js"></script>
   <script>
     AOS.init();
+    // back to top
+    const backToTop = document.querySelector(".back-to-top");
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 100) {
+        backToTop.classList.add("active");
+      } else {
+        backToTop.classList.remove("active");
+      }
+    });
+
+    // click to scroll top
+    backToTop.addEventListener("click", () => {
+      window.scrollTo(0, 0);
+    });
   </script>
 </html>

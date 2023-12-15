@@ -299,6 +299,7 @@ main {
 }
 
 .btn-1 {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -308,9 +309,30 @@ main {
   background-color: rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
   cursor: pointer;
+  overflow: hidden;
   font-size: 1.5rem;
   font-weight: 400;
   font-family: "SF Pro Display", sans-serif;
+}
+/* chil */
+
+.btn-1 span:nth-child(2) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  border-radius: 50%;
+  background: #fff;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+  animation: shap 1.8s ease infinite;
+  opacity: 0.6;
+  /* z-index: ; */
+}
+@keyframes shap {
+  100% {
+    transform: scale(900);
+    opacity: 0;
+  }
 }
 .btn-1 a {
   color: #fff;
