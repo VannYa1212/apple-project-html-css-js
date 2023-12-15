@@ -828,3 +828,189 @@ footer {
   justify-content: start;
   align-items: start;
 }
+
+.service-hero-1{
+  position: relative;
+  background: #000;
+}
+.service-hero-1 .all-service{
+  max-width: 1020px;
+  margin: 0 auto;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.all-service .service-item{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  font-size: .7rem;
+  color: var(--white);
+  font-weight: 300;
+  gap: .5rem;
+  cursor: pointer;
+}
+
+.hero-description{
+  max-width: 1020px;
+  margin: 5rem auto ;
+  color: var(--white);
+  padding: 2rem;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+}
+.hero-description h1{
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 4rem;
+}
+.hero-description p{
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+.more-service{
+  width: 100%;
+  padding: 2rem;
+  background: var(--body-color);
+
+}
+.more-service .more-service-conten{
+  max-width: 1020px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1.3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.more-service-conten img{
+  height: 2.1rem;
+}
+.more-service-conten p{
+  color: var(--white);
+  font-size: 1.4rem;
+}
+.more-service-conten a{
+  color: var(--white);
+  padding: .8rem 1.8rem;
+  border: 1px var(--white) solid;
+  border-radius: 99px;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.show-out-service{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.video-service{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.video-service video{
+  width: 100% !important;
+  /* object-fit: cover; */
+}
+.outservice-description-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  z-index: 2;
+}
+.outservice-description{
+  max-width: 1020px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.service-information{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+.apple-tv{
+  display: flex;
+  align-items: center;
+  color: var(--white);
+}
+.apple-tv span{
+  font-size: 1.3rem;
+  margin-left: 1rem;
+}
+.chipe{
+  padding: .2rem 1rem;
+  border: 1px var(--white) solid;
+  color: var(--white);
+  font-size: .8rem;
+  border-radius: 99px;
+  margin-left: 2rem;
+}
+.service-button{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  padding-bottom:1.4rem;
+}
+
+.btn-border{
+  border: 1px var(--white) solid;
+  color: var(--white);
+  padding: 1rem 2rem;
+  border-radius: 999px;
+
+}
+.btn-white{
+  background: white;
+  color: var(--black);
+  padding: 1rem 2rem;
+  border-radius: 999px;
+}
+.tv-text{
+  margin-top: .5rem;
+}
+.tv-text h1 {
+  color: var(--white);
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.1rem;
+  margin-bottom: 3.5rem;
+}
+
+.service-slide{
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: var(--white);
+  padding: 1rem 2rem;  
+  min-height: 230px;
+}
+.marquee{
+  width: 100%;
+  height: auto;
+  display: flex;
+  position: relative;
+  background: var(--white);
+  padding: 1rem 2rem;  
+  min-height: 230px;
+  overflow-y: scroll;
+
+}
