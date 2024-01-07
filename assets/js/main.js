@@ -16,9 +16,7 @@ loading();
 // 2. navbar toggle button add class active to id #navbar-toggle then remove it after 2s
 
 
-
 // button style
-
 
 
 // fetch api data
